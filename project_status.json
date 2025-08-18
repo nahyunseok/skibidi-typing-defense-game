@@ -1,0 +1,52 @@
+{
+  "last_update": "2025-08-18T20:16:06.000392",
+  "project_name": "YouTube 자동화 시스템",
+  "stages": {
+    "stage1": {
+      "name": "스토리 생성",
+      "status": "completed",
+      "completion": 100,
+      "files": [
+        "stage1_story_and_settings.html"
+      ]
+    },
+    "stage2": {
+      "name": "음성 합성",
+      "status": "completed",
+      "completion": 100,
+      "files": [
+        "stage2_voice_synthesis.html",
+        "google_tts_config.js"
+      ]
+    },
+    "stage3": {
+      "name": "이미지 생성",
+      "status": "paused",
+      "completion": 30,
+      "files": [
+        "stage3_visual.html",
+        "ai_image_generation_system.py"
+      ]
+    },
+    "stage4": {
+      "name": "영상 합성",
+      "status": "pending",
+      "completion": 0,
+      "files": [
+        "ffmpeg_merger.py"
+      ]
+    },
+    "stage5": {
+      "name": "업로드",
+      "status": "pending",
+      "completion": 0,
+      "files": []
+    }
+  },
+  "integrated_version": "stage1_2_integrated.html",
+  "api_status": {
+    "google_tts": "configured",
+    "gemini": "configured",
+    "typecast": "removed"
+  }
+}
